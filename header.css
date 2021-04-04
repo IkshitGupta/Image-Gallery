@@ -47,7 +47,7 @@ body {
 	/* margin-top: 6rem; */
 	/* height: 44rem; */
 	flex-wrap: wrap;
-	filter: blur(0.1rem);
+	filter: blur(0.3rem);
 	z-index: 1;
 }
 .overimg {
@@ -109,9 +109,9 @@ body {
 		right: 3%;
 		width: 5%;
 	}
-	#withflex {
+/* 	#withflex {
 		filter: blur(0.3rem);
-	}
+	} */
 	.crosshai {
 		top: 36%;
 		width: 3%;
@@ -140,9 +140,9 @@ body {
 		right: 3%;
 		width: 5%;
 	}
-	#withflex {
+/* 	#withflex {
 		filter: blur(0.3rem);
-	}
+	} */
 	.crosshai {
 		top: 36%;
 		width: 3%;

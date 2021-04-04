@@ -1,0 +1,150 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	/* background-color: #e7717d; */
+	background-image: url('https://images.pexels.com/photos/242236/pexels-photo-242236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+
+	background-size: cover;
+}
+
+#heading {
+	font-size: 5rem;
+	margin-top: 2rem;
+	font-family: 'Kiwi Maru', serif;
+	text-decoration: underline;
+	color: #b96a11;
+}
+.images {
+	width: 20%;
+	/* display: block; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	height: auto;
+	border: 0.3rem solid darkred;
+	border-radius: 1rem;
+	/* border:  ; */
+	margin-top: 5rem;
+	/* filter: sepia(75%); */
+	transition: 2s;
+	/* filter: drop-shadow(8px 8px 10px gray); */
+}
+.images:hover {
+	/* filter: sepia(0%); */
+	box-shadow: 0 0 0.5rem 0.3rem rgba(4, 40, 247);
+	border-color: navajowhite;
+	transform: scale(1.25);
+	/* filter: blur(0); */
+}
+#withflex {
+	display: flex;
+	/* justify-content: center; */
+	/* width: 100%; */
+	flex-direction: row;
+	justify-content: space-evenly;
+	/* border: black 5px solid; */
+	/* width: fit-content; */
+	/* margin-top: 6rem; */
+	/* height: 44rem; */
+	flex-wrap: wrap;
+	filter: blur(0.1rem);
+	z-index: 1;
+}
+.overimg {
+	/* display: block; */
+	width: 74%;
+	height: 45rem;
+
+	z-index: 100;
+	position: absolute;
+	top: 20%;
+	left: 13%;
+	/* bottom: 20%; */
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+.crosshai {
+	z-index: 10000;
+	position: absolute;
+	top: 22%;
+	width: 1.5%;
+	height: auto;
+	right: 14%;
+}
+.right-arrow {
+	z-index: 1000;
+	position: absolute;
+	right: 10%;
+	top: 35rem;
+	width: 3%;
+}
+
+.left-arrow {
+	z-index: 1000;
+	position: absolute;
+	left: 10%;
+	top: 35rem;
+	width: 3%;
+}
+
+@media only screen and (max-width: 998px) and (min-width: 768px) {
+	html {
+		font-size: 55%;
+	}
+	.images {
+		width: 28%;
+	}
+	.overimg {
+		height: 28%;
+		top: 35%;
+		/* width: auto; */
+	}
+	.left-arrow {
+		top: 49%;
+		left: 3%;
+		width: 5%;
+	}
+	.right-arrow {
+		top: 49%;
+		right: 3%;
+		width: 5%;
+	}
+	#withflex {
+		filter: blur(0.3rem);
+	}
+	.crosshai {
+		top: 36%;
+		width: 3%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	html {
+		font-size: 45%;
+	}
+	.images {
+		width: 40%;
+	}
+	.overimg {
+		/* height: 25rem; */
+		height: 28%;
+		top: 35%;
+		/* width: auto; */
+	}
+	.left-arrow {
+		top: 49%;
+		left: 3%;
+		width: 5%;
+	}
+	.right-arrow {
+		top: 49%;
+		right: 3%;
+		width: 5%;
+	}
+	#withflex {
+		filter: blur(0.3rem);
+	}
+	.crosshai {
+		top: 36%;
+		width: 3%;
+	}
+}

@@ -95,23 +95,25 @@ body {
 		width: 28%;
 	}
 	.overimg {
-		height: 28%;
+		height: 44%;
 		top: 35%;
+		width: 80%;
+		left: 10%;
 		/* width: auto; */
 	}
 	.left-arrow {
-		top: 49%;
+		top: 51%;
 		left: 3%;
-		width: 5%;
+		width: 6%;
 	}
 	.right-arrow {
-		top: 49%;
+		top: 51%;
 		right: 3%;
-		width: 5%;
+		width: 6%;
 	}
 	.crosshai {
 		top: 36%;
-		width: 3%;
+		width: 4%;
 	}
 }
 @media only screen and (max-width: 768px) {
